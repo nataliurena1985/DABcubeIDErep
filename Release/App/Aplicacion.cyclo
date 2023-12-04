@@ -1,0 +1,9 @@
+../App/Aplicacion.c:125:6:AppInit	1
+../App/Aplicacion.c:140:6:AppLoop	43
+../App/Aplicacion.c:586:6:NOP	1
+../App/Aplicacion.c:593:7:LeerVBat	2
+../App/Aplicacion.c:598:7:LeerVBus	2
+../App/Aplicacion.c:603:7:LeerVac	2
+../App/Aplicacion.c:608:7:LeerIac	2
+../App/Aplicacion.c:613:7:LeerVPanel	2
+../App/Aplicacion.c:619:7:LeerIPanel	2

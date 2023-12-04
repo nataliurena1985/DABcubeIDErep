@@ -1,0 +1,9 @@
+../App/Aplicacion.c:115:6:AppInit	80	static
+../App/Aplicacion.c:130:6:AppLoop	128	static
+../App/Aplicacion.c:568:6:NOP	4	static
+../App/Aplicacion.c:573:7:LeerVBat	16	static
+../App/Aplicacion.c:577:7:LeerVBus	16	static
+../App/Aplicacion.c:581:7:LeerVac	16	static
+../App/Aplicacion.c:585:7:LeerIac	16	static
+../App/Aplicacion.c:589:7:LeerVPanel	16	static
+../App/Aplicacion.c:593:7:LeerIPanel	16	static

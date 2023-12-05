@@ -39,7 +39,7 @@ void DabInit(void)
 
 
 	d_ActL=0;
-	d_ActL=0;
+	d_ActH=0;
 	d_Fase=0;
 }
 

@@ -25,7 +25,6 @@ SUBDIRS := \
 App \
 Core/Src \
 Core/Startup \
-Drivers/CMSIS/Device/ST/STM32F3xx/Source/Templates \
 Drivers/STM32F3xx_HAL_Driver/Src \
 FATFS/App \
 FATFS/Target \

@@ -48,7 +48,7 @@ App/Aplicacion.o: ../App/Aplicacion.c \
  ../Middlewares/Third_Party/FatFs/src/diskio.h ../App/Panel\ Tactil.h \
  ../App/Idioma.h ../ILI9341/ILI9341_Driver.h ../Memoria/Memoria.h \
  ../Recursos/Recursos.h ../Touch/XPT2046_touch.h ../App/Aplicacion.h \
- ../App/OSC.h
+ ../App/OSC.h ../App/Mppt.h ../App/Dab.h ../App/Inverter.h
 ../Middlewares/Third_Party/FatFs/src/ff.h:
 ../Middlewares/Third_Party/FatFs/src/integer.h:
 ../FATFS/Target/ffconf.h:
@@ -108,3 +108,6 @@ App/Aplicacion.o: ../App/Aplicacion.c \
 ../Touch/XPT2046_touch.h:
 ../App/Aplicacion.h:
 ../App/OSC.h:
+../App/Mppt.h:
+../App/Dab.h:
+../App/Inverter.h:

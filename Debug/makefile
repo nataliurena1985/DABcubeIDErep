@@ -22,7 +22,6 @@ RM := rm -rf
 -include FATFS/Target/subdir.mk
 -include FATFS/App/subdir.mk
 -include Drivers/STM32F3xx_HAL_Driver/Src/subdir.mk
--include Drivers/CMSIS/Device/ST/STM32F3xx/Source/Templates/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
 -include App/subdir.mk
@@ -74,8 +73,8 @@ all: main-build
 main-build: Inverter.elf secondary-outputs
 
 # Tool invocations
-Inverter.elf Inverter.map: $(OBJS) $(USER_OBJS) C:\Users\Dani\OneDrive\PROYECTOS\C\STM32\Inverter\STM32F303RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Inverter.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Dani\OneDrive\PROYECTOS\C\STM32\Inverter\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Inverter.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Inverter.elf Inverter.map: $(OBJS) $(USER_OBJS) C:\Users\Ingenieria\ 1003\Desktop\worspaceCUBE\Inverter\STM32F303RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Inverter.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Ingenieria 1003\Desktop\worspaceCUBE\Inverter\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Inverter.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
